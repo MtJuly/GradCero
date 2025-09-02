@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+opencv-python-headless
+face_recognition
+ultralytics
+qrcode
+pyzbar
+gTTS
