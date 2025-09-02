@@ -568,7 +568,7 @@ def show_noDetect_result():
 
 if menu == "Dashboard (Scan & Verification)":
 
-    set_bg("bckground/graduation_bg.jpg")
+    set_bg("background/graduation_bg.jpg")
 
     # 🔑 Create WebRTC camera once here
     camera_ctx = webrtc_streamer(
@@ -679,7 +679,7 @@ if menu == "Dashboard (Scan & Verification)":
 
 elif menu == "QR Generator":
 
-    set_bg("bckground/qrcode_bg.jpg")
+    set_bg("background/qrcode_bg.jpg")
 
     st.markdown(
         """
@@ -726,7 +726,7 @@ elif menu == "QR Generator":
 
 elif menu == "Admin View":
 
-    set_bg("bckground/admin_bg.jpg")
+    set_bg("background/admin_bg.jpg")
 
     st.markdown(
         "<h1 style='text-align: center;'>Admin View</h1>",
